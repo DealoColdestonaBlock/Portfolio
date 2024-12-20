@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+}
+body{
+    height: 100vh;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color:rgb(207, 207, 129);
+    padding:5px;
+}
+
+header{
+    background-color:#8947A9;
+
+}
+header, h1{
+    color: lightgreen;
+}
+h2{
+    font-size:35pt;
+    padding:30px;
+}
+h2+p{
+    color:whitesmoke;
+    font-size:25px;
+}
+
+
+.hero{
+    text-align:center;
+    color:red;
+    background-image: url('pexel.jpg');
+    background-size:cover;
+    object-fit:none;
+    height:90%; 
+    width:100%;
+    
+}
+
+footer{
+    text-align: center;
+    background-color:#8947A9;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+}
+
+.web{
+background-color:grey;
+color:yellow;
+border: 2px solid purple;
+height:150px;
+width:300px;
+align-content:center;
+}
+
+.Pro{
+background-color:grey;
+color:black;
+border: 2px solid purple;
+height:150px;
+width:300px;
+align-content:center;
+}
+
+.Data{
+background-color:grey;
+color:red;
+border: 2px solid purple;
+height:150px;
+width:300px;
+align-content:center;
+}
+
+
+
+

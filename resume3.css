@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:0;
+}
+body{
+  height: 100vh;
+}
+a{
+  list-style-type: none;
+  text-decoration: none;
+  color:rgb(207, 207, 129);
+  padding:5px;
+}
+
+header{
+  background-color:#8947A9;
+}
+header, h1{
+  color: lightgreen;
+}
+.head{
+  margin:10px;
+  padding-left:500px;
+  
+}
+.contact-info{
+padding-left:350px;
+}
+.software{
+padding-left:70px;
+}
+.job-date{
+color:grey;
+font-style:italic;
+}

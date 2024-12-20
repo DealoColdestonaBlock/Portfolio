@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simpleform.css">
+    <title>Create account</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Deangelo Panameno</h1>
+            
+            <a href="index.html">Home</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Resume1.html">Resume</a>
+        <a href="Contact.html">Contact</a>
+         
+        </header>
+        <header>
+            <h1>Create Account</h1>
+            <p>Fill in the details to get started</p>
+        </header>
+        <label for="Fname"><b>Full Name</b>*</label>
+        <input type="text" id="fname" placeholder="John Doe" required>
+        <br>
+        <label for="addr"><b>Email Address</b>*</label>
+        <input type="text" id="addr" placeholder="Johndoe@example.com" required>
+        <br>
+        <label for="pass"><b>Password</b>*</label>
+        <input type="text" id="pass" required>
+        <p><i>Must be at least 8 characters long</i></p>
+    
+        <label for="role"><b>Role</b>*</label>
+        <select id="role" name="role">
+            <option value="" >Select a role</option>
+            <option value="1" >1</optionvalue>
+            <option value="2" >2</optionvalue>
+            <option value="3" >3</optionvalue>
+            <option value="4" >Other</optionvalue>
+        </select>
+        <br>
+        <h2>Bio*</h2>
+        <textarea name="bio" row="30" cols="30">Tell us about yourself</textarea>
+        <p>Keep it short and sweet</p>
+       
+        <div class="terms">
+        <input type="checkbox" id="term" name="term" value="term">
+        
+        <label for="term"><b>I agree to the terms and conditions</b>*</label>
+        </div>
+        <br>
+
+        <div class="create">
+            Create Account
+        </div>
+    </div>
+</body>
+</html>
